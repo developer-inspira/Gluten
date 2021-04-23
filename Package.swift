@@ -23,6 +23,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "GlutenTests",
-            dependencies: ["NavKit"]),
+            dependencies: ["Gluten"]),
     ]
 )
