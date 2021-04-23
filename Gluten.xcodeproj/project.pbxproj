@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95B47C6026331E1200A38B53 /* Gluten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B47C5F26331E1200A38B53 /* Gluten.swift */; };
 		CF7A7A7C1E9CB921000F64A4 /* Gluten.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7A7A721E9CB921000F64A4 /* Gluten.framework */; };
 		CF7A7A811E9CB921000F64A4 /* GlutenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7A7A801E9CB921000F64A4 /* GlutenTests.swift */; };
-		CF7A7A831E9CB921000F64A4 /* Gluten.h in Headers */ = {isa = PBXBuildFile; fileRef = CF7A7A751E9CB921000F64A4 /* Gluten.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFC424C51E9CBA4100766703 /* Gluten.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC424C41E9CBA4100766703 /* Gluten.swift */; };
 		CFC424C71E9CBC2900766703 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFC424C61E9CBC2900766703 /* TestView.xib */; };
 		CFC424C91E9CBC3800766703 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC424C81E9CBC3800766703 /* TestView.swift */; };
 		CFC424CB1E9CC0A700766703 /* TestWrongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC424CA1E9CC0A700766703 /* TestWrongView.swift */; };
@@ -28,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95B47C5F26331E1200A38B53 /* Gluten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gluten.swift; path = Sources/Gluten/Gluten.swift; sourceTree = SOURCE_ROOT; };
+		95B47C6726331E2100A38B53 /* Gluten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gluten.h; path = Sources/Gluten/Gluten.h; sourceTree = SOURCE_ROOT; };
+		95B47C6826331E2100A38B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Sources/Gluten/Info.plist; sourceTree = SOURCE_ROOT; };
 		CF7A7A721E9CB921000F64A4 /* Gluten.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gluten.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF7A7A751E9CB921000F64A4 /* Gluten.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gluten.h; sourceTree = "<group>"; };
-		CF7A7A761E9CB921000F64A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF7A7A7B1E9CB921000F64A4 /* GlutenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlutenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF7A7A801E9CB921000F64A4 /* GlutenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlutenTests.swift; sourceTree = "<group>"; };
 		CF7A7A821E9CB921000F64A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFC424C41E9CBA4100766703 /* Gluten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gluten.swift; sourceTree = "<group>"; };
 		CFC424C61E9CBC2900766703 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
 		CFC424C81E9CBC3800766703 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		CFC424CA1E9CC0A700766703 /* TestWrongView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestWrongView.swift; sourceTree = "<group>"; };
@@ -100,8 +99,8 @@
 		CFC424C21E9CB99000766703 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				CF7A7A751E9CB921000F64A4 /* Gluten.h */,
-				CF7A7A761E9CB921000F64A4 /* Info.plist */,
+				95B47C6726331E2100A38B53 /* Gluten.h */,
+				95B47C6826331E2100A38B53 /* Info.plist */,
 			);
 			name = Support;
 			sourceTree = "<group>";
@@ -109,7 +108,7 @@
 		CFC424C31E9CB99800766703 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CFC424C41E9CBA4100766703 /* Gluten.swift */,
+				95B47C5F26331E1200A38B53 /* Gluten.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -140,7 +139,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF7A7A831E9CB921000F64A4 /* Gluten.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +193,7 @@
 				TargetAttributes = {
 					CF7A7A711E9CB921000F64A4 = {
 						CreatedOnToolsVersion = 8.3.1;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 1240;
 						ProvisioningStyle = Automatic;
 					};
 					CF7A7A7A1E9CB921000F64A4 = {
@@ -247,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFC424C51E9CBA4100766703 /* Gluten.swift in Sources */,
+				95B47C6026331E1200A38B53 /* Gluten.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +380,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Gluten/Info.plist;
+				INFOPLIST_FILE = Sources/Gluten/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -403,7 +401,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Gluten/Info.plist;
+				INFOPLIST_FILE = Sources/Gluten/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
